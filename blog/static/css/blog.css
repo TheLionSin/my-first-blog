@@ -1,0 +1,23 @@
+.page-header {
+background-color: #ff9400;
+margin-top: 0;
+padding: 20px 20px 20px 40px;
+font-size: 50pt;
+}
+
+
+
+
+@-webkit-keyframes pulsate {
+50% { color: #blue; text-shadow: 0 -1px rgba(0, 0, 255, 1), 0 0 5px #ffd, 0 0 8px #fff; }
+}
+@keyframes pulsate {
+50% { color: #blue; text-shadow: 0 -1px rgba(0, 0, 255, 1), 0 0 5px #ffd, 0 0 8px #fff; }
+}
+.page-header {
+color: rgb(0, 0, 128);
+text-shadow: 0 -1px rgba(255, 255, 0);
+background: black;
+-webkit-animation: pulsate 1.2s linear infinite;
+animation: pulsate 1.2s linear infinite;
+}
